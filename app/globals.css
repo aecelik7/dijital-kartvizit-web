@@ -1,0 +1,62 @@
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, sans-serif;
+  background: #f4f4f5;
+  color: #18181b;
+}
+
+.profile {
+  min-height: 100dvh;
+  display: flex;
+  justify-content: center;
+  padding: 32px 16px;
+}
+
+.card {
+  width: 100%;
+  max-width: 420px;
+  background: #fff;
+  border-radius: 16px;
+  padding: 32px 24px;
+  text-align: center;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+
+.avatar {
+  width: 96px;
+  height: 96px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 16px;
+}
+
+h1 { font-size: 22px; margin: 0 0 4px; }
+.title { color: #52525b; margin: 0 0 16px; }
+
+.contact { display: flex; flex-direction: column; gap: 4px; margin-bottom: 12px; }
+.contact a { color: #18181b; text-decoration: none; }
+
+.address { color: #71717a; font-size: 14px; margin-bottom: 20px; }
+
+.links { list-style: none; padding: 0; margin: 0 0 24px; display: flex; flex-direction: column; gap: 8px; }
+.links a {
+  display: block;
+  padding: 12px;
+  border-radius: 10px;
+  background: #f4f4f5;
+  color: #18181b;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.save-contact {
+  display: inline-block;
+  padding: 12px 24px;
+  border-radius: 10px;
+  background: #18181b;
+  color: #fff;
+  text-decoration: none;
+  font-size: 15px;
+}
